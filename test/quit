@@ -1,0 +1,1433 @@
+=> [0;34m#(Document:0x14b8704 {[0m[0m
+  name = [32m[1;32m"[0m[32mdocument[1;32m"[0m[32m[0m,
+  children = [
+    [0;34m#(Element:0x14e135c {[0m
+      name = [32m[1;32m"[0m[32mResultSet[1;32m"[0m[32m[0m,
+      namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+      attributes = [
+        [0;34m#(Attr:0x131eefc {[0m
+          name = [32m[1;32m"[0m[32mschemaLocation[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1334 {[0m
+            prefix = [32m[1;32m"[0m[32mxsi[1;32m"[0m[32m[0m,
+            href = [32m[1;32m"[0m[32mhttp://www.w3.org/2001/XMLSchema-instance[1;32m"[0m[32m[0m
+            }),
+          value = [32m[1;32m"[0m[32murn:yahoo:answers http://answers.yahooapis.com/AnswersService/V1/QuestionResponse.xsd[1;32m"[0m[32m[0m
+          })],
+      children = [
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x12620b8 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x1261dd4 { name = "id", value = "20110413040901AASmCEq" }),[0m
+            [0;34m#(Attr:0x1261dc0 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ee098 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "What is the update on the US adaptation of Christian and Oliver from Verbotene Liebe?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ecd10 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Verbotene Liebe is a German soap. To be more specific there's a plan to make a US version of the storyline of Christian and Oliver (\"Chrolli\"). Last news about it was in early 2010. What's the update for it?\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14eba64 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2011-04-13 04:09:02")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ea420 {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1302692942")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e9160 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20110413040901AASmCEq")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e7c98 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x14e79b4 { name = "id", value = "2115500181" })],[0m
+              children = [ [0;34m#(Text "Soap Operas")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e5f38 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "00mgPzMDaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e4cc8 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Jamey J")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e3a6c {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e2a54 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e17d0 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14e0380 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Never heard of it..it would be nice to have another soap though..maybe if you google it they might have some info...=)")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14decb0 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "7qqMPm0oaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14dda54 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14dcc58 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1302701934")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14db9fc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1303212179")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x14da05c {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x14d9db4 { name = "id", value = "20091218195217AAnSDMo" }),[0m
+            [0;34m#(Attr:0x14d9da0 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1417c64 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Is there anyway to find the first episode of Verbotene Liebe?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14166d4 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I know it started in 1995, and I would love to be able to see the first episodes. Anyone know how?\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1415428 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2009-12-18 19:52:17")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13e14d4 {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1261194737")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14d8900 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20091218195217AAnSDMo")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14d74c4 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x14d70b4 { name = "id", value = "2115500181" })],[0m
+              children = [ [0;34m#(Text "Soap Operas")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14d4a6c {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "UKHgCjIAaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14d334c {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Junior")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14d1754 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14cfd3c {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ce6a8 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ccda8 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "download it")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14cb41c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "P6Qg6i6uaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c9b30 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c8578 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1261195072")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c673c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1261714372")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x14c46f8 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x14c4414 { name = "id", value = "20110806215733AA3QZWG" }),[0m
+            [0;34m#(Attr:0x14c43ec { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c1a98 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Is there a difference in pronouncing liebe and leben in German?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c00d0 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "What do these words mean in German and how do you pronounce them? Thanks!\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14be500 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2011-08-06 21:57:33")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14bc82c {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1312693053")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13c95a0 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20110806215733AA3QZWG")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13c8178 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x13c7ebc { name = "id", value = "396545217" })],[0m
+              children = [ [0;34m#(Text "Languages")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13c61fc {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "U20lZ1Weaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13bc288 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13c54a0 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ba770 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "3")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b9154 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b6c60 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Yes there is. Liebe is the verb 'to love' and leben is the verb 'to live'.\nLiebe is pronounced 'lee-beh' and leben is pronounced leh-ben''")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b58c4 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "boRui9AVaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b4190 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b2ad4 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1312693290")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b0874 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1312840761")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x14adffc {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x14ada84 { name = "id", value = "20101209110239AAu14NL" }),[0m
+            [0;34m#(Attr:0x14ada20 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ab478 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "How do you pronounce liebe and lebe in German?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14a8a5c {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I'm having a hard time distinguishing these two words, are they pronounced the same way?\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14a6b30 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2010-12-09 11:02:39")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14a517c {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1291921359")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14a32dc {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20101209110239AAu14NL")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14a0d34 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x14a09d8 { name = "id", value = "396545217" })],[0m
+              children = [ [0;34m#(Text "Languages")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x149e818 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Q1M79Jdyaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x149b67c {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1499ae8 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13ab578 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "6")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1402c88 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14012c0 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Liebe  - lee-buh   lieben [the verb]  LEEbun\nLebe - lay- buh  leben [the verb] LAYbun\n\n\nif you get yourself a good German dictionary [assuming you're learning German] it will include advice on pronunciation")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1497fe0 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "i4NdxG6vaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1496730 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Inselstricken")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x149504c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1291921679")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1493878 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1291928552")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x148f908 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x148f28c { name = "id", value = "20090613115440AAZhSKX" }),[0m
+            [0;34m#(Attr:0x148f278 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x148c208 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "where can i watch the full serie Verbotene Liebe?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x148aa48 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "please help,where can i watch the full serie Verbotene Liebe?\ni want to watch full episode but not in youtube,dailymotion and hulu because they never work in my country.\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14881d0 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2009-06-13 11:54:40")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1485098 {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1244919280")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14830f4 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20090613115440AAZhSKX")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1480ad4 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x14806c4 { name = "id", value = "2115500183" })],[0m
+              children = [ [0;34m#(Text "Comedy")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x147cd94 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "X7qFBKpEaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x147aae4 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Lara C")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x136c0bc {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11d6bbc {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1478960 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14757c4 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I found one result, but I was not sure if it was what you were looking for. http://www.GRAB0lD.com/s/?k=verbot+lieb\n\nWas that it?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1471d68 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1KDAdcXNaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1470684 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Peter")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x146e8fc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1245077021")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x146d330 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1245644095")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x146a34c {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x146a090 { name = "id", value = "20110418210058AA57VsH" }),[0m
+            [0;34m#(Attr:0x146a07c { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14678a4 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "How do you say \"Ich liebe dich so sehr\" in short form, or kurzform?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1465f54 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I know in English it means \"I love you\" or something thereabouts but I need to know the German version. Thanks in advance!\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1464924 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2011-04-18 21:00:58")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1462e6c {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1303185658")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14616fc {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20110418210058AA57VsH")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x145f7bc {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x145f3fc { name = "id", value = "396545217" })],[0m
+              children = [ [0;34m#(Text "Languages")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x145c724 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "d326d238764130c115dda2ad4ba06d14aa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1459e98 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14586c4 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14562c0 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1454934 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1452f58 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "There's no short form of \"Ich liebe dich so sehr\" because it means \"I love you so much\".\n\"Ich liebe dich\" means \"I love you\".\nIt's really NOT the same to say \"I love you so much\" or to say \"I love you\" so plain and simple.")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14501cc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "dSXjV7p7aa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144dd14 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Urmeli")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144a95c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1303206467")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14485a8 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1303704822")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x13f56f0 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x13f4d2c { name = "id", value = "20091206193712AA8KmDy" }),[0m
+            [0;34m#(Attr:0x13f4c00 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x140bec8 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Is there any meet and greets for fans of VERBOTENE LIEBE in the USA to meet Thore and Jo?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1445344 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "If not is there a way to get their autographs?\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14422ac {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2009-12-06 19:37:12")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x143fb10 {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1260157032")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10d2e8c {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20091206193712AA8KmDy")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1334630 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x1334130 { name = "id", value = "2115500181" })],[0m
+              children = [ [0;34m#(Text "Soap Operas")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x143eaf8 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "3yPcrV3Naa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x121b67c {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2nerdy")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11fa7ec {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11b6470 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1163f40 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11233dc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I can't imagine so, considering it doesn't even air in this country! They ought to have fan pages, track one down for an address, you can send them a pic for them to autograph that they can mail you back.")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11033d4 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "dH730bFHaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10fea00 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "RaTz")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10fb184 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1260174780")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10de994 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1260676497")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x14ed094 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x14ea074 { name = "id", value = "20100823173341AAr9UIY" }),[0m
+            [0;34m#(Attr:0x14ea088 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14dba74 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "What does liebe dich mean EXACTLY in German?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13e2988 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "i've translated it on bing translator to \"love you\" but i've heard that it has a different meaning from \"ich liebe dich\" which is \"i love you\"....which really doesn't make  much sense to me....anyone here to clarify?\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14ce9f0 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2010-08-23 17:33:41")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14c27f4 {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1282610021")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x13c7660 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20100823173341AAr9UIY")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14b2494 {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x14b0900 { name = "id", value = "396545217" })],[0m
+              children = [ [0;34m#(Text "Languages")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x149e944 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "vPGh1ErCaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x149734c {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x148aad4 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x136b48c {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "5")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x146bf6c {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x145f2a8 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "it sounds like \"love you\" to me. if, for some reason, in some part of Germany, there's a slang subliminal message that makes it differ from its dictionary translation, or from \"i love you,\" then it's not evident in the words themselves.")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x14528dc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "3cee1858b52d18aaae56e692e236b52caa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144671c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Johnny Ratchet")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1217c0c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1282610570")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10330bc {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1282652202")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0xcf466c {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0xcf669c { name = "id", value = "20090728011728AAus2je" }),[0m
+            [0;34m#(Attr:0xcf6674 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xd01a60 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "Where can i find the TV show Verbotene Liebe -christian and oliver) on DVD? Is it even on DVD?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xd7f9c4 {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I am looking for the German TV show Verbotene Liebe (Forbidden love- christian and oliver) on DVD but i am having trouble finding anything.  If anyone can help, even if its just to know that it isnt available, i would greatly appreciate it.\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xe132dc {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2009-07-28 01:17:28")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xe391bc {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1248769048")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xea9688 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20090728011728AAus2je")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xe5af9c {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0xe607f8 { name = "id", value = "2115500181" })],[0m
+              children = [ [0;34m#(Text "Soap Operas")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xe80ad0 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "aj7d90GEaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xecef00 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xeefa34 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/q/users/1mWHd4jFNAAEC_iFVoMgR6rwB.medium.jpg")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1046658 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xf731b8 {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xf7da8c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "I love that show, they are the cutest couple. They have a website chrolli.de and a lot of videos on youtube, but no DVDs.")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0xf5116c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "MBnsoIEDaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x109dc64 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Nuala")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10ba9e0 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1248914259")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x105ce94 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1249288388")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n    "),[0m
+        [0;34m#(Element:0x10d4de0 {[0m
+          name = [32m[1;32m"[0m[32mQuestion[1;32m"[0m[32m[0m,
+          namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" }),[0m
+          attributes = [
+            [0;34m#(Attr:0x10d496c { name = "id", value = "20100423175240AAVu5S5" }),[0m
+            [0;34m#(Attr:0x10d4958 { name = "type", value = "Answered" })],[0m
+          children = [
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10faff4 {[0m
+              name = [32m[1;32m"[0m[32mSubject[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "How would you pronounce Ich Liebe Dich in German?")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x110132c {[0m
+              name = [32m[1;32m"[0m[32mContent[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "i am trying to pick up on some german and ich liebe dich means I love you. i got that memorized but how do you pronounce it? Is it eek laba deek or itch laba ditch? or is it something else? Does the CH in german make a K sound or a regular CHA noise? Please help me...\n")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1109f90 {[0m
+              name = [32m[1;32m"[0m[32mDate[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "2010-04-23 17:52:41")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1163fcc {[0m
+              name = [32m[1;32m"[0m[32mTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1272070361")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11d19a0 {[0m
+              name = [32m[1;32m"[0m[32mLink[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://answers.yahoo.com/question/?qid=20100423175240AAVu5S5")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x11fce0c {[0m
+              name = [32m[1;32m"[0m[32mCategory[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              attributes = [
+                [0;34m#(Attr:0x11ff7b0 { name = "id", value = "396545217" })],[0m
+              children = [ [0;34m#(Text "Languages")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x143e3a0 {[0m
+              name = [32m[1;32m"[0m[32mUserId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "EzcSVx69aa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1332d58 {[0m
+              name = [32m[1;32m"[0m[32mUserNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 { href = "urn:yahoo:answers" })[0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1334eb4 {[0m
+              name = [32m[1;32m"[0m[32mUserPhotoURL[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "http://l.yimg.com/sc/28172/answers1/images/a/i/identity/nopic_48.gif")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x10d2fe0 {[0m
+              name = [32m[1;32m"[0m[32mNumAnswers[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "4")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144036c {[0m
+              name = [32m[1;32m"[0m[32mNumComments[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "0")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1443dc8 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswer[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [
+                [0;34m#(Text "No. There is one simple rule for German: most words are exactly pronounced as they are spelled.\nThere are two versions of the \"ch\"-phoneme in German, one is voiced, the other one voiceless. The voiced one is pronounced like the ch in Loch Ness, the voiceless one is pronounced with less pressure. Imagine you try to hiss like a panther/ cat - that sound comes close to it. But the ch is never ever pronounced as \"k\" - only in southern dialects.\n\nThe e behind the i in \"liebe\" signifies that it is a long vowel like in the english \"geek\", whereas the i in \"ich\" and \"dich\" is a short vowel like in the english \"hit\".\n\nSo it's like Ich liiiiiiiiiiiiebe dich.")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144590c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererId[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "wGo8BJPLaa")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x140c92c {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswererNick[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "Amanita Pantherina")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x1349698 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1272102511")][0m
+              }),
+            [0;34m#(Text "\n        "),[0m
+            [0;34m#(Element:0x144abc8 {[0m
+              name = [32m[1;32m"[0m[32mChosenAnswerAwardTimestamp[1;32m"[0m[32m[0m,
+              namespace = [0;34m#(Namespace:0x14e1320 {[0m
+                href = [32m[1;32m"[0m[32murn:yahoo:answers[1;32m"[0m[32m[0m
+                }),
+              children = [ [0;34m#(Text "1272590043")][0m
+              }),
+            [0;34m#(Text "\n    ")][0m
+          }),
+        [0;34m#(Text "\n")][0m
+      })]
+  })

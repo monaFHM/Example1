@@ -2,26 +2,26 @@ require_relative '../common/CommonlyUsed'
 
 module Geocoding
 	class GoogleGeoAPI
+		include CommonlyUsed
+		attr_accessor :lat, :lng
 
 		def initialize()
-			@helper = Helper::CommonlyUsed.new
 			@GoogleRequestConst="http://maps.googleapis.com/maps/api/geocode/json"
 		end
 
 
 		def askForLngLat(requestParamString)
 
-			requestString=@GoogleRequestConst+ @helper.make_Uri_String_from_Hash({'address' => requestParamString, 'sensor' => 'false'})
-			webserviceResponse= @helper.request_Webservice(requestString)
-			if webserviceResponse.code == "200"
-				location=@helper.get_json_from_depth_request(webserviceResponse.body, ["results", "geometry", "location"])
-			else
-				raise "Webservice Request unsuccesfully"
+			if requestParamString.instance_of?(String)
+
+				request_stub(@GoogleRequestConst, {'address' => requestParamString, 'sensor' => 'false'}) do |result|
+					location=get_json_from_depth_request(result, ["results", "geometry", "location"])
+					each_json_request(location, ["lat"])  {|l| @lat=l}
+					each_json_request(location, ["lng"])  {|l| @lng=l}
+				end
+				
 			end
 			
-			#result[]
-			#@helper.each_json_request(location, ["lat", "lng"]) do |item|
-			#end
 		end
 
 
