@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
 
 #require_relative("*.rb")
-require_relative('Geocode/GoogleGeoAPI.rb')
-require_relative('Geocode/GoogleWeatherAPI.rb')
-require_relative('Social/YahooAnswerAPI.rb')
-require_relative('Social/FlickrAPI.rb')
+
+require_relative('BuzzwordSearchApp')
 
 @buzzword=""
 
@@ -14,11 +12,9 @@ end
 
 puts @buzzword
 
+@queryApp = BuzzwordSearchApp.new
+@queryApp.query(@buzzword)
 
-@googleGeo = Geocoding::GoogleGeoAPI.new
-@googleWeater = Geocoding::GoogleWeatherAPI.new
-@yahooAnswer =Social::YahooAnswerAPI.new
-@flickr = Social::FlickrAPI.new
 
 def printer(header, &block)
 	puts ""
@@ -28,27 +24,28 @@ def printer(header, &block)
 	puts ""
 end
 
-@googleGeo.askForLngLat(@buzzword)
+
 printer("GEO DATA") do
-	puts "Lat: " + @googleGeo.lat.to_s
-	puts "Lng: " + @googleGeo.lng.to_s
+	puts "Lat: " + @queryApp.get_lat
+	puts "Lng: " + @queryApp.get_lng
 end
 
 
-@googleWeater.askForWeather(@buzzword)
+
 printer("WEATHER DATA") do
 	puts "Current Conditions "
-	p @googleWeater.current_conditions
+	p @queryApp.get_current_conditions 
 	puts "Forecast "
-	p @googleWeater.forecast_conditions
+	p @queryApp.get_forecast_conditions
 end
 
 
-@yahooAnswer.askForQuestionsRealtedTo(@buzzword)
+
 printer("Yahoo Answer Service") do
-	p @yahooAnswer.list_of_questions
+	p @queryApp.get_yahoo_questions
 end
 
 printer ("Flickr")do
- p @flickr.get_pictures_for(@buzzword)
+ p @queryApp.get_img_tags
 end
+

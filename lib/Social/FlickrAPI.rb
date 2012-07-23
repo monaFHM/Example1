@@ -7,11 +7,14 @@ module Social
 	class FlickrAPI
 		include CommonlyUsed
 
+		attr_accessor :flickr_html_img_tags
+
 
 		def initialize()
 			@Constant="http://api.flickr.com/services/rest/"
 			@api_key="1c3e3fb999f90f7a37babaf21d7b3461"
 			@api_secret="1da1c7babf372c33"
+			@flickr_html_img_tags = []
 		end
 
 		def get_pictures_for(buzzword)
@@ -25,6 +28,8 @@ module Social
 				end				
 			end
 
+
+			@flickr_html_img_tags = img_tags
 			img_tags
 			# File.open("flickrPics.html", 'w') do |f| 
 
