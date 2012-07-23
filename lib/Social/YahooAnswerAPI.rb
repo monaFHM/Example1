@@ -25,16 +25,20 @@ module Social
 			@list_of_questions=[]
 		end
 
-		def askForQuestionsRealtedTo(buzzword)
+		def askForQuestionsRelatedTo(buzzword)
 			request_stub(@constYahooURI,{'appid' => "8erK1DnV34FS7JiqmsmzbgUV1oTeWIoa4fKWXpWMJtnHFU59tPazcqLchgQOFexwnyGedJVDcOVzfeJFaxoL_FD5v6.RS94-", 'query' => buzzword, 'ouput' => 'json'}) do |result|
-				File.open("yahooanwers.xml", 'w') {|f| f.write(result) }
+        #is this used?
+				File.open("yahooanswers.xml", 'w') {|f| f.write(result) }
 				get_elements_from_XML(result, "//Question") do |q|				
+          
+          #is this used?
 					answer = YahooAnswer.new
+
 					answerHash={}
 					q.children.each do |c|
-							unless c.name.downcase! =="text"				
-								answerHash[c.name] = get_text_from_node(c)
-							end
+            unless c.name.downcase =="text"				
+              answerHash[c.name] = get_text_from_node(c)
+            end
 					end
 
 					@list_of_questions.push(answerHash)
@@ -42,7 +46,6 @@ module Social
 				end
 			end
 
-			#p @list_of_questions
 		end
 	
 	end

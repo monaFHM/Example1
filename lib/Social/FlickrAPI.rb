@@ -11,6 +11,7 @@ module Social
 
 
 		def initialize()
+      #@Constant should be a constant
 			@Constant="http://api.flickr.com/services/rest/"
 			@api_key="1c3e3fb999f90f7a37babaf21d7b3461"
 			@api_secret="1da1c7babf372c33"
@@ -31,22 +32,6 @@ module Social
 
 			@flickr_html_img_tags = img_tags
 			img_tags
-			# File.open("flickrPics.html", 'w') do |f| 
-
-			# 	f.write("<!DOCTYPE html>")
-			# 	f.write("<html>")
-			# 	f.write("<head></head>")
-			# 	f.write("<body>")
-
-			# 	img_tags.each do |img|
-			# 		f.write(img) 	
-			# 	end
-
-			# 	f.write("</body>")
-			# 	f.write("</html>")
-				 
-			# end
-
 		end
 
 

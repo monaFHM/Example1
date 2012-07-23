@@ -21,7 +21,6 @@ describe CommonlyUsed do
 	    	request = ["name","surname"]
 	    	result =[]
 	        @helper.each_json_request(input,request) do |value|
-	        	#binding.pry
 	        	result.push(value)
 	        end
 

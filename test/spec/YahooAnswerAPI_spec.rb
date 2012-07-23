@@ -7,9 +7,9 @@ describe Social::YahooAnswerAPI do
     	@yahoo =  Social::YahooAnswerAPI.new
 	end
 
-	describe '#askForQuestionsRealtedTo(buzzword)' do 
+	describe '#askForQuestionsRelatedTo(buzzword)' do 
 		it "looks for some buzzword related anwers" do
-			@yahoo.askForQuestionsRealtedTo("Liebe")
+			@yahoo.askForQuestionsRelatedTo("Liebe")
 		end
 	end
 end
