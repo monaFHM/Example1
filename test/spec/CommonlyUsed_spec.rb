@@ -74,39 +74,71 @@ describe CommonlyUsed do
 
 		end
 
-		describe "#each_attribute_from_node_XML" do
+		describe "#each_attribute_from_child_node_XML" do
 			
 			it "returns all attribute values for given attribut name in every node found by xpath info array, XML as String" do
-				@helper.each_attribute_from_node_XML(@xml, ["//weather/forecast_information/city"], "data") do |a|
-					a.should eql "Hamburg, Hamburg"
+				@helper.each_attribute_from_child_node_XML(@xml, ["//weather/forecast_information/city"], "data") do |a|
+					a.should eql result  'Hamburg, Hamburg'
 				end
 			end
 
 			it "returns all attribute values for given attribut name in every node found by xpath info array, XML as Doc" do
 				xmldoc = Nokogiri::XML(@xml)
-				@helper.each_attribute_from_node_XML(xmldoc, ["//weather/forecast_information/city"], "data") do |a|
-					a.should eql "Hamburg, Hamburg"
+				result = {'//weather/forecast_information/city' => 'Hamburg, Hamburg'}
+				@helper.each_attribute_from_child_node_XML(xmldoc, ["//weather/forecast_information/city"], "data") do |a|
+					a.should eql result  'Hamburg, Hamburg'
 				end
 			end
 
 			it "returns nil for bad xml, bad xpaths, bad attributename" do
-				result=[]
+				result=Array.new
 
 				#bad xml
-				@helper.each_attribute_from_node_XML('<"abc 234><d data="stuff"></d></abc>', ["//abc/d"], "data") do |a|
+				@helper.each_attribute_from_child_node_XML('<"abc 234><d data="stuff"></d></abc>', ["//abc/d"], "data") do |a|
 					result << a
 				end
 
 				#bad xpaths
-				@helper.each_attribute_from_node_XML('<abc><d data="stuff"></d></abc>', ["//vbc/d"], "data") do |a|
+				@helper.each_attribute_from_child_node_XML('<abc><d data="stuff"></d></abc>', ["//vbc/d"], "data") do |a|
 					result << a
 				end
 
 				#bad attributname
-				@helper.each_attribute_from_node_XML('<"abc 234><d data="stuff"></d></abc>', ["//abc/d"], "dta") do |a|
+				@helper.each_attribute_from_child_node_XML('<"abc 234><d data="stuff"></d></abc>', ["//abc/d"], "dta") do |a|
 					result << a
 				end
-				result.should eql []
+				result.should eql Array.new
+			end
+
+		end
+
+		describe '#each_attribute_from_node_XML(xmlitem, attr_names)' do
+			before :each do 
+				@attrxml = '<weather module_id="0" tab_id="0" mobile_row="0" mobile_zipped="1" row="0" section="0">"'
+			end
+
+			it "returns all attribut values from xml" do
+				result={"module_id" =>"0", 'tab_id' =>"0", 'mobile_row'=>"0", 'mobile_zipped' =>"1", 'row' =>"0", 'section' =>"0"}
+				@helper.each_attribute_from_node_XML(@attrxml, ["module_id", "tab_id", "mobile_row", "mobile_zipped", "row", "section"]) do |item|
+					item.should eql result
+				end
+			end
+
+			it "returns nothing if bullshit xml or empty attribute names are given" do 
+				result = Array.new
+				should_result = []
+				
+				#bad xml
+				@helper.each_attribute_from_node_XML(@xml, ["module_id", "tab_id", "mobile_row", "mobile_zipped", "row", "section"]) do |item|
+					result << item
+				end
+
+				#bad xml
+				@helper.each_attribute_from_node_XML(@attrxml, ["m_id", "23d"]) do |item|
+					result << item
+				end
+
+				result.should eql should_result
 			end
 
 		end

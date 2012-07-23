@@ -42,7 +42,7 @@ module Social
 				end
 			end
 
-			p @list_of_questions
+			#p @list_of_questions
 		end
 	
 	end

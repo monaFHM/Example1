@@ -57,18 +57,19 @@ module CommonlyUsed
 		end
 	end
 
-	def each_attribute_from_node_XML(xmlitem, xPatharray, attr_name)
+	def each_attribute_from_child_node_XML(xmlitem, xPatharray, attr_name)
 		if xmlitem.instance_of?(String)
 		 	doc = Nokogiri::XML(xmlitem)
 		 else
 			doc =xmlitem
 		end
 
-		result=[]
+		result= Array.new
 
 		unless xPatharray.nil?
 			xPatharray.each do |item|
 				doc.xpath(item+"[@#{attr_name}]").each do |attrElement|
+					#binding.pry
 					result.push(attrElement[attr_name])
 				end
 			end
@@ -77,14 +78,38 @@ module CommonlyUsed
 		result
 	end
 
-	def set_value_via_reflection(obj, prop, value)
-		obj.send(prop+"=", value)
+	def each_attribute_from_node_XML(xmlitem, attr_names)
+		if xmlitem.instance_of?(String)
+		 	doc = Nokogiri::XML(xmlitem)
+		 else
+			doc =xmlitem
+		end
+
+		result= Hash.new
+
+		unless doc.nil?
+			attr_names.each do |item|
+				result[item] = doc.attr(item)
+			end
+		end
+		result
+	end
+
+	# def set_value_via_reflection(obj, prop, value)
+	# 	obj.send(prop+"=", value)
+	# end
+
+	def each_attribute_from_xpath(xmlString, element_name, attr_names)
+		get_elements_from_XML(xmlString, element_name) do |item|
+			yield each_attribute_from_node_XML(item, attr_names)
+		end
 	end
 
 	def each_attribute_from_subsections(xmlString, subsection_xpath, xpathattrelements, attr_name) 
 
 		get_elements_from_XML(xmlString, subsection_xpath) do |subsection|
-			yield each_attribute_from_node_XML(subsection, xpathattrelements, attr_name)
+			#binding.pry
+			yield each_attribute_from_child_node_XML(subsection, xpathattrelements, attr_name)
 		end
 	end
 
