@@ -21,8 +21,8 @@ module Social
 
 			img_tags =[]
 
-			request_stub(@Constant	, {'method' => "flickr.photos.search", 'api_key' => @api_key, 'text' => buzzword}) do |encoded_result|
-				File.open("flickr.xml", 'w') {|f| f.write(encoded_result) }
+			request_stub(@Constant	, {'method' => "flickr.photos.search", 'api_key' => @api_key, 'text' => buzzword, 'per_page' => 20}}) do |encoded_result|
+				#File.open("flickr.xml", 'w') {|f| f.write(encoded_result) }
 				each_attribute_from_xpath(encoded_result, "//photo", ["id", "farm", "owner", "secret","server", "title"]) do |a|
 					img_tags.push(make_image_tag(a))
 				end				
@@ -51,7 +51,10 @@ module Social
 
 
 
-		def make_image_tag(info_hash)		
+		def make_image_tag(info_hash)
+			info_hash.values.each do |v|
+				encodeString(v)
+			end	
 			return "<img src='http://farm"+info_hash['farm']+".staticflickr.com/"+info_hash['server']+"/"+info_hash['id']+"_"+ info_hash['secret']+"_m.jpg' alt='Flickr Picture' title='"+info_hash['title']+"' />"
 		end
 
