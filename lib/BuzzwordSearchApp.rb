@@ -15,7 +15,7 @@ class BuzzwordSearchApp
 	def query(buzzword)
 		@googleGeo.askForLngLat(buzzword)
 		@googleWeater.askForWeather(buzzword)
-		@yahooAnswer.askForQuestionsRealtedTo(buzzword)
+		@yahooAnswer.askForQuestionsRelatedTo(buzzword)
 		@flickr.get_pictures_for(buzzword)
 	end
 
