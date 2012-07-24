@@ -2,6 +2,7 @@
 require 'json'
 require 'net/http'
 require 'uri'
+#require 'open-uri'
 require 'nokogiri'
 require 'pry'
 
@@ -126,12 +127,10 @@ module CommonlyUsed
 		end
 	end
 
-	def get_text_from_node(node)
-		return node.text
-	end
-
-	def encodeString(str)
-		str.force_encoding("ISO-8859-1").encode("UTF-8")
+	def encodeString(str, encoding="ISO-8859-1")
+		 #str.encode("utf-8", str.encoding)
+     str.force_encoding(encoding).encode("UTF-8")
+     #str.force_encoding(encoding).encode("UTF-8")
 	end
 
   #although you use an underscore here, the W needs to be a small one
@@ -139,24 +138,22 @@ module CommonlyUsed
 	def request_Webservice(requestString)
     #unless is useful here since "" is not falsy.
 		unless requestString.empty? 
-			begin
+			
 				url = URI.escape(requestString)
-				resp = Net::HTTP.get_response(URI.parse(url))
-			rescue Exception
-        #also: this only puts the class Exception, not the actual
-        #instance of exception that was thrown.
-				puts Exception
-        #This is a clear antipattern. We should handle the exception
-        #(i.e. modify the url and retry the whole thing maybe), 
-        #pass on the Exception to where it will be handled (i.e. the
-        #callee of request_Webservice) and/or throw custom ErrorTypes
-        #with more information.
-        #If you return nil, you make each developer of your libraries
-        #guess why there is a nil value - nil does not have a stack
-        #trace, an Exception does.
-				nil
-			end
-		end 
+        # encoded = URI.encode(url)
+        # doc = open(encoded){ |f| f.read }
+        # doc = doc.encode("utf-8", doc.encoding)
+
+        # encodeString(doc)
+
+
+        resp = Net::HTTP.get_response(URI.parse(url))
+        if resp.code == "200"   
+          encodeString(resp.body)
+        else
+            raise "Webservice Request unsuccesfully: " + webserviceResponse.body 
+        end
+      end
 	end
 
 	def make_Uri_String_from_Hash(hash)
@@ -183,15 +180,7 @@ module CommonlyUsed
 			result=nil
 			requestURL = const + make_Uri_String_from_Hash(paramsHash)
 			webserviceResponse=request_Webservice(requestURL)
-			
-			if webserviceResponse.code == "200"				
-				encoded_result=encodeString(webserviceResponse.body)
-				result = encoded_result
-				result= yield encoded_result if block_given?
-			else
-				raise "Webservice Request unsuccesfully: " + webserviceResponse.body 
-			end
-			
+			result= yield webserviceResponse if block_given?
 			result
 	end
 	

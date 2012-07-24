@@ -18,9 +18,7 @@ describe Geocoding::GoogleWeatherAPI do
 
 		it "doesn't return anything for bullshit input" do
 			location='12378sdas'
-			@google_geo.askForWeather(location)
-			@google_geo.current_conditions.should eql []
-			@google_geo.forecast_conditions.should eql []
+			lambda{@google_geo.askForWeather(location)}.should raise_error
 		end
 
 	end

@@ -239,14 +239,13 @@ describe CommonlyUsed do
 
 		it "returns nil if request URL is stupid" do
 			request="htp:/www.google.de"
-			result=@helper.request_Webservice(request)
-			result.should eql nil
+			lambda{@helper.request_Webservice(request)}.should raise_error
 		end
 
-		it "returns Webservice object HTTPOK when everything is fine" do
+		it "returns the Request Answer when everything is fine" do
 			request="http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true_or_false"
 			result=@helper.request_Webservice(request)
-			result.should be_an_instance_of Net::HTTPOK
+			result.should_not eql String.new
 		end
 
 	end
